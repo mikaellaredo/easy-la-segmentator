@@ -3,6 +3,8 @@
 **Automatic 3D model of the left atrium, pulmonary veins and left atrial appendage from cardiac CT, for
 electrophysiologists. Runs fully offline on your own computer.**
 
+<p align="center"><img src="docs/images/rotation.gif" width="560" alt="3D model of a left atrium (blue) with its pulmonary veins (purple), appendage (orange) and the four ostia ringed"></p>
+
 ![The pulmonary veins tab: atrium, veins and appendage, each ostium ringed and measured](docs/images/pulmonary-veins.png)
 
 > **Research use only. Not a medical device.** The segmentations and measurements may be wrong: always check them on
@@ -70,11 +72,29 @@ licence key:
 The **left atrium volume** is the atrial body, without the pulmonary veins and appendage. The model also gives one
 combined shell (atrium + veins + appendage), e.g. for a mapping system.
 
-| Whole left atrium | Cut plane | Review slices |
+## Screenshots and examples
+
+| Whole left atrium | Cut plane (inside view, measured contour) | Review slices |
 |---|---|---|
 | ![Whole LA](docs/images/whole-la.png) | ![Cut plane](docs/images/cut-plane.png) | ![Review slices](docs/images/review-slices.png) |
 
-*(Screenshots: the public CTA-cardio sample scan from 3D Slicer.)*
+**Ostium measurements.** Each vein is cut perpendicular to its axis where it becomes its own tube. The picture shows
+the largest diameter (red) and the smallest width (yellow) on the CT.
+
+![Pulmonary vein ostia measured on the CT](docs/images/ostia.png)
+
+**Overview**: the outlines on the axial, coronal and sagittal CT, the 3D model, and the volumes.
+
+![Overview: outlines on the CT, 3D views and volumes](docs/images/overview.png)
+
+**Anatomical variants**, on two public expert-annotated scans:
+
+| Accessory right middle pulmonary vein (RMPV), flagged with its own ostium (8.0 × 6.5 mm) | Typical anatomy: four veins |
+|---|---|
+| ![Example with an accessory right middle pulmonary vein](docs/images/example-hocm13-veins.png) | ![Example with four pulmonary veins](docs/images/example-hocm34-veins.png) |
+
+*Screenshots made from public data only: the 3D Slicer CTA-cardio sample scan, and HOCMvalvesSeg cases 13 and 34
+(Zheng et al., CC BY-NC 4.0).*
 
 ## Check that it works on your computer
 
