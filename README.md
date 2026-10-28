@@ -16,7 +16,7 @@ electrophysiologists. Runs fully offline on your own computer.**
 
 | | Windows | macOS |
 |---|---|---|
-| File | `Easy LA Segmentator-<version>-Setup.exe` (1.4 GB) | `Easy LA Segmentator-<version>-macOS.dmg` (1.4 GB) |
+| File | `Easy.LA.Segmentator-<version>-Setup.exe` (1.4 GB) | `Easy.LA.Segmentator-<version>-macOS.dmg` (1.4 GB) |
 | System | Windows 10 (1809+) or 11, 64-bit; 8 GB memory at least (16 GB better) | macOS 14 or later, Apple silicon (M1 or later); 16 GB memory |
 | Install | Run Setup.exe: no administrator rights needed (installs for the current user) | Drag the app to Applications |
 | Speed | On the processor: full analysis about 10 min on a hospital PC, quick 3D model about half | On the Mac's GPU: 1–2 min |
